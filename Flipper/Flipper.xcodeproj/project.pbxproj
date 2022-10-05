@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49CE8F9E25262E2300B9CBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CE8F9D25262E2300B9CBE4 /* LaunchScreen.storyboard */; };
+		8B64A15828ED13BA00670906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B64A15728ED13BA00670906 /* Assets.xcassets */; };
 		8B7064CC26E27429006CB4A8 /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7064CB26E27429006CB4A8 /* UI */; };
 		8B7480DE2807483500692304 /* Born2bSportyV2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B7480DD2807483500692304 /* Born2bSportyV2.ttf */; };
 		8B77A9CD26CAA43300A3DF9F /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 8B77A9CC26CAA43300A3DF9F /* Core */; };
@@ -19,6 +20,8 @@
 		8BA57F21273AD21D00A3A33B /* irda.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA57F1C273AD21D00A3A33B /* irda.png */; };
 		8BCB0168278F135C00DA66F5 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB0167278F135C00DA66F5 /* Intents.intentdefinition */; };
 		8BCE39EB289D47EA00FB5704 /* HaxrCorpNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE39EA289D47EA00FB5704 /* HaxrCorpNeue.ttf */; };
+		8BCF2F9628EE091F00C2777C /* Born2bSportyV2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BCF2F9428EE091F00C2777C /* Born2bSportyV2.ttf */; };
+		8BCF2F9728EE091F00C2777C /* HaxrCorpNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BCF2F9528EE091F00C2777C /* HaxrCorpNeue.ttf */; };
 		8BCFDDDF277A2405002DA4CD /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCFDDDE277A2405002DA4CD /* QuickLook.framework */; platformFilter = maccatalyst; };
 		8BCFDDE2277A2405002DA4CD /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFDDE1277A2405002DA4CD /* PreviewViewController.swift */; };
 		8BCFDDE4277A2405002DA4CD /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFDDE3277A2405002DA4CD /* PreviewProvider.swift */; };
@@ -77,6 +80,7 @@
 		44A5B59224F05647009EE7FB /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
 		49CE8F9D25262E2300B9CBE4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B38AA5F289D6BD800A152F3 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Analytics; path = Packages/Analytics; sourceTree = "<group>"; };
+		8B64A15728ED13BA00670906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7480DD2807483500692304 /* Born2bSportyV2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Born2bSportyV2.ttf; sourceTree = "<group>"; };
 		8B886F162759BA9A00D9A682 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = Packages/Core/.swiftlint.yml; sourceTree = "<group>"; };
 		8B886F172759BAA500D9A682 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = Packages/UI/.swiftlint.yml; sourceTree = "<group>"; };
@@ -93,11 +97,14 @@
 		8BC4791227FB2D9400863945 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = Packages/Peripheral/Sources/RPC/Protobuf/.swiftlint.yml; sourceTree = "<group>"; };
 		8BCB0167278F135C00DA66F5 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		8BCE39EA289D47EA00FB5704 /* HaxrCorpNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HaxrCorpNeue.ttf; sourceTree = "<group>"; };
+		8BCF2F9428EE091F00C2777C /* Born2bSportyV2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Born2bSportyV2.ttf; sourceTree = "<group>"; };
+		8BCF2F9528EE091F00C2777C /* HaxrCorpNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HaxrCorpNeue.ttf; sourceTree = "<group>"; };
 		8BCFDDDD277A2405002DA4CD /* KeyPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeyPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCFDDDE277A2405002DA4CD /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		8BCFDDE1277A2405002DA4CD /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		8BCFDDE3277A2405002DA4CD /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		8BCFDDE8277A2405002DA4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDFD98E28ECF4BB00E240FD /* TodayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodayWidget.entitlements; sourceTree = "<group>"; };
 		8BE40CF427F1265900288F66 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = Packages/Peripheral/.swiftlint.yml; sourceTree = "<group>"; };
 		8BE40CF627F1266D00288F66 /* Peripheral */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Peripheral; path = Packages/Peripheral; sourceTree = "<group>"; };
 		8BED6143270B66D8009E51E2 /* perform_lint.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = perform_lint.sh; sourceTree = "<group>"; };
@@ -203,6 +210,16 @@
 			path = FileIcons;
 			sourceTree = "<group>";
 		};
+		8BCF2F9328EE091F00C2777C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BCF2F9428EE091F00C2777C /* Born2bSportyV2.ttf */,
+				8BCF2F9528EE091F00C2777C /* HaxrCorpNeue.ttf */,
+			);
+			name = Fonts;
+			path = Shared/Fonts;
+			sourceTree = SOURCE_ROOT;
+		};
 		8BCFDDE0277A2405002DA4CD /* KeyPreview */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,9 +286,12 @@
 		8BF9CECB28E21A4400CD5D31 /* TodayWidget */ = {
 			isa = PBXGroup;
 			children = (
+				8BCF2F9328EE091F00C2777C /* Fonts */,
+				8BDFD98E28ECF4BB00E240FD /* TodayWidget.entitlements */,
 				8BF9CECC28E21A4400CD5D31 /* TodayViewController.swift */,
 				8BF9CECE28E21A4400CD5D31 /* MainInterface.storyboard */,
 				8BF9CED128E21A4400CD5D31 /* Info.plist */,
+				8B64A15728ED13BA00670906 /* Assets.xcassets */,
 			);
 			path = TodayWidget;
 			sourceTree = "<group>";
@@ -440,6 +460,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCF2F9728EE091F00C2777C /* HaxrCorpNeue.ttf in Resources */,
+				8BCF2F9628EE091F00C2777C /* Born2bSportyV2.ttf in Resources */,
+				8B64A15828ED13BA00670906 /* Assets.xcassets in Resources */,
 				8BF9CED028E21A4400CD5D31 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,6 +620,7 @@
 		8BF9CED528E21A4400CD5D31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
@@ -621,6 +645,7 @@
 		8BF9CED628E21A4400CD5D31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
